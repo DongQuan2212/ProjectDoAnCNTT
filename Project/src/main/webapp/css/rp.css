@@ -1,0 +1,84 @@
+:root{
+	--bg1: #9b59b6;
+	--bg2:#3498db;
+	--text: #26ade4;
+	--white:#fff;
+	--black:#000;
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline:none;
+}
+a{
+	text-decoration: none;	
+}
+p{
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	align-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: linear-gradient(to bottom right,var(--white),var(--black));
+}
+.login{
+	width: 350px;
+	height: 550px;
+	background: white;
+	border-radius: 10px;
+	padding: 40px 30px;
+}
+.login h1{
+	margin-bottom: 20px;
+}
+.login p{
+	text-align: center;
+	margin-top: 10px;
+}
+.login button
+{
+	height: 35px;
+	width: 100%;
+	margin-bottom: 30px;
+	background: linear-gradient(120deg,var(--bg1),var(--bg2),var(--bg1));
+	border: none;
+	color: white;
+	border-radius: 5px;
+	background-size: 200%;
+	transition:0.5s;
+}
+
+.login button:hover
+{
+	background-position: right;
+}
+.text{
+	margin-bottom: 40px;
+	position: relative;
+	margin-top: 40px;
+}
+.text input{
+	width: 100%;
+	height: 35px;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	cursor: pointer;
+	padding-left: 12px;
+	
+	
+}
+.text label{
+	position: absolute ;
+	left: 12px;
+	bottom: 12px;
+	transition:0.5s;
+}
+.text label.focus{
+	transform: translateY(-30px);
+}
+
