@@ -1,19 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 	<%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <%@ taglib prefix="fmt" uri="jakarta.tags.fmt"%>
 <%@ taglib prefix="fn" uri="jakarta.tags.functions"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-	<header class="header">
+<header class="header">
 		<a href="${pageContext.request.contextPath}/home" class="logo"> <img
 			src="images/coffee-cup.png" alt="">
 		</a>
@@ -70,7 +60,3 @@
 		</div>
 
 	</header>
-
-	<script src="script/home.js"></script>
-</body>
-</html>

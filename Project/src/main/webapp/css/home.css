@@ -93,6 +93,11 @@ html::-webkit-scrollbar-thumb {
 	font-size: 2.5rem;
 	margin-left: 2rem;
 }
+.header .icons a{
+	margin: 0 1rem;
+	font-size: 1.6rem;
+	color: white;
+}
 
 .header .icons div:hover {
 	color: var(--main-color);
